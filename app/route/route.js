@@ -1,5 +1,5 @@
 const appConfig=require('./../Config/appConfig');
-const controller=require('./../controller/userController');
+const controller=require('./../controller/usercontroller');
 const multer = require('multer');
 const authorization=require('./../middleware/auth');
 
