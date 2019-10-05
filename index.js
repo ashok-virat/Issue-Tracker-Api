@@ -7,7 +7,7 @@ const mongoose=require('mongoose');
 const bodyParser=require('body-parser');
 const cookieParser=require('cookie-parser');
 const globalErrorMiddleWare=require('./app/middleware/appErrorHandler');
-const routeLoggerMiddleware=require('./app/middleware/routeLogger');
+const routeLoggerMiddleware=require('./app/middleware/routelogger');
 
 const logger=require('./app/libs/loggerLib');
 
